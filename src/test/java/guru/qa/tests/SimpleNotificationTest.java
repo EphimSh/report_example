@@ -29,7 +29,7 @@ public class SimpleNotificationTest extends TestBase {
             $("#popup-title-search-input").setValue("BCAA").pressEnter();
         });
 
-        step("В результате есть", () -> {
+        step("В результатах поиска отображается текст: BCAA ", () -> {
            $(".b-search-page-block").shouldHave(Condition.text("BCAA"));
         });
     }
