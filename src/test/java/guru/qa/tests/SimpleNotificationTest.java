@@ -11,7 +11,7 @@ import static io.qameta.allure.Allure.step;
 
 public class SimpleNotificationTest extends TestBase {
     @Test
-    @Tag("smoke")
+    @Tag("search")
     @Feature("Automation test example")
     @Story("Successful searching item")
     @Owner("EphimSh")
