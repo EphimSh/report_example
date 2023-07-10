@@ -13,11 +13,11 @@ public class SimpleNotificationTest extends TestBase {
     @Test
     @Tag("search")
     @Feature("Automation test example")
-    @Story("Successful searching item")
+    @Story("Successful item searching")
     @Owner("EphimSh")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "primekraft", url = "https://primekraft.ru")
-    @DisplayName("search item")
+    @DisplayName("item search")
     void searchTest() {
         open("https://primekraft.ru");
         //remove ad-block
