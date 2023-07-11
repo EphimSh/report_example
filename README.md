@@ -57,11 +57,12 @@ gradle clean test -Denv=main
 
 ```
 clean
-main -DremoteUrl=${SELENOID_URL}
--DbaseUrl=${BASE_URL}
--DbrowserSize=${BROWSER_SIZE}
--Dbrowser=${BROWSER_NAME}
--Dbrowser_version="${BROWSER_VERSION}"
+${TASK}
+"-Dbrowser=${BROWSER}"
+"-DbrowserVersion=${BROWSER_VERSION}"
+"-DbrowserSize=${BROWSER_SIZE}"
+"-DbaseUrl=${BASE_URL}"
+"-DremoteDriverUrl=https://user1:1234@${REMOTE_URL}/wd/hub/"
 ```
 
 ### Параметры сборки
