@@ -10,7 +10,7 @@
 ## :computer: Использованный стек технологий
 
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="media/logo/Intelij_IDEA.svg">
+<img width="6%" title="IntelliJ IDEA" src="media/logos/Intelij_IDEA.svg">
 <img width="6%" title="Java" src="media/logos/Java.svg">
 <img width="6%" title="Selenide" src="media/logos/Selenide.svg">
 <img width="6%" title="Selenoid" src="media/logos/Selenoid.svg">
