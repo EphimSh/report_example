@@ -106,14 +106,19 @@ main -DremoteUrl=${SELENOID_URL}
 Результат выполнения автотестов отображается в <code>Allure TestOps</code>
 На Dashboard в <code>Allure TestOps</code> отображена статистика пройденных тестов.
 
+### Dashboard
 <p align="center">
 <img title="Allure TestOps DashBoard" src="media/screenshots/allure_testops_dashboard.png">
 </p>
 
+### Тест-кейсы
 <p align="center">
-<img title="Allure TestOps DashBoard" src="media/screenshots/allure_testops_test_case.png">
+<img title="Allure TestOps test-case" src="media/screenshots/allure_testops_test_case.png">
 </p>
 
+<p align="center">
+<img title="Allure TestOps test-case" src="media/screenshots/allure_testops_test_case.png">
+</p>
 
 
 ## <img src="media/logos/Jira.svg" title="Jira" width="4%"/> Интеграция с Jira
@@ -121,7 +126,7 @@ main -DremoteUrl=${SELENOID_URL}
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в тикете отображается информация, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
 
 <p align="center">
-<img title="Jira Task" src="media/screens/jiraTask.png">
+<img title="Jira Task" src="media/screenshots/jira_integration.png">
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/logos/Telegram.svg"> Уведомления в Telegram с использованием бота
@@ -129,7 +134,7 @@ main -DremoteUrl=${SELENOID_URL}
 После завершения сборки, бот созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с результатом.
 
 <p align="center">
-<img width="70%" title="Telegram Notifications" src="media/screens/notification.png">
+<img width="70%" title="Telegram Notifications" src="media/screenshots/Telegram_dOO4Xyu1au.png">
 </p>
 
 ## Видео примера запуска тестов в Selenoid
