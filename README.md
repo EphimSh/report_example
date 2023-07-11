@@ -141,4 +141,6 @@ ${TASK}
 ## Видео примера запуска тестов в Selenoid
 
 К каждому тесту в отчете прилагается видео прогона.
-<video width="100%" height="100%" controls="" autoplay=""><source src="https://selenoid.autotests.cloud/video/7a4bd94abdbdb8ac4e9500dad41e20bb.mp4" type="video/mp4"></video>
+<p align="center">
+  <img title="Selenoid Video" src="media/screens/ezgif.gif">
+</p>
