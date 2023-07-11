@@ -74,14 +74,14 @@ main -DremoteUrl=${SELENOID_URL}
 
 ## <img src="media/logos/Jenkins.svg" title="Jenkins" width="4%"/> Сборка в Jenkins
 <p align="center">
-<img title="Jenkins Build" src="media/screens/JenkinsBuild.png">
+<img title="Jenkins Build" src="media/screenshots/jenkins_build.png">
 </p>
 
 ## <img src="media/logos/Allure_Report.svg" title="Allure Report" width="4%"/> Пример Allure-отчета
 ### Overview
 
 <p align="center">
-<img title="Allure Overview" src="media/screens/allureReport.png">
+<img title="Allure Overview" src="media/screenshots/allure_overview.png">
 </p>
 
 ### Результат выполнения теста
