@@ -29,7 +29,7 @@
 - Использованы фреймворки <code>JUnit 5</code> и [Selenide](https://selenide.org/).
 - При прогоне тестов браузер запускается в [Selenoid](https://aerokube.com/selenoid/).
 - Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета и отправкой результатов в <code>Telegram</code> при помощи бота. 
-- Осуществлена интеграция с <code>Allure Test
+- Осуществлена интеграция с <code>Allure TestOps</code> и <code>Jira</code>
 
 Содержание Allure-отчета:
 * Шаги теста;
