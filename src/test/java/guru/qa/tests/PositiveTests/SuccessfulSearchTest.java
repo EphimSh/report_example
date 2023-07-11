@@ -11,12 +11,7 @@ import static io.qameta.allure.Allure.step;
 public class SuccessfulSearchTest extends TestBase {
 
 
-    @BeforeEach
-    void setPreconditions(){
-        step("go to primekraft.ru", () ->{
-            open("https://primekraft.ru");
-        });
-    }
+
     @Test
     @Tags({
             @Tag("search"),
