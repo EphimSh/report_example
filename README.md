@@ -84,10 +84,20 @@ main -DremoteUrl=${SELENOID_URL}
 <img title="Allure Overview" src="media/screenshots/allure_overview.png">
 </p>
 
-### Результат выполнения теста
+### Тест-кейсы
 
 <p align="center">
-<img title="Test Results in Alure" src="media/screens/ResultTest.png">
+<img title="Test Results in Alure" src="media/screenshots/allure_test_suite.png">
+</p>
+
+<p align="center">
+<img title="Test Results in Alure" src="media/screenshots/allure_behavior.png">
+</p>
+
+### Графики
+
+<p align="center">
+<img title="Test Results in Alure" src="media/screenshots/allure_graphs.png">
 </p>
 
 ## <img src="media/logos/AllureTestOps.svg" title="Allure TestOps" width="4%"/> Интеграция с Allure TestOps
