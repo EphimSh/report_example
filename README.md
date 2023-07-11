@@ -107,8 +107,14 @@ main -DremoteUrl=${SELENOID_URL}
 На Dashboard в <code>Allure TestOps</code> отображена статистика пройденных тестов.
 
 <p align="center">
-<img title="Allure TestOps DashBoard" src="media/screens/allureAutotestCloud.png">
+<img title="Allure TestOps DashBoard" src="media/screenshots/allure_testops_dashboard.png">
 </p>
+
+<p align="center">
+<img title="Allure TestOps DashBoard" src="media/screenshots/allure_testops_test_case.png">
+</p>
+
+
 
 ## <img src="media/logos/Jira.svg" title="Jira" width="4%"/> Интеграция с Jira
 
