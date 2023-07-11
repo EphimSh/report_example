@@ -86,7 +86,7 @@ task catalog_test(type: Test){
 }
 task smoke_test(type: Test){
     useJUnitPlatform{
-        includeTags 'smoke'
+        includeTags 'smoke', 'search', 'shop-cart', 'catalog'
     }
 }
 
