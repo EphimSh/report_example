@@ -14,12 +14,6 @@ import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 
 public class ShopCartTests extends TestBase {
-
-    //hover on catalog
-    //click on protein catalog item
-    //click on first shop item card
-    //double-click on add-item button
-    //assert that item is added
     @BeforeEach
     void setPreconditions(){
         step("go to primekraft.ru", () ->{
