@@ -116,10 +116,6 @@ main -DremoteUrl=${SELENOID_URL}
 <img title="Allure TestOps test-case" src="media/screenshots/allure_testops_test_case.png">
 </p>
 
-<p align="center">
-<img title="Allure TestOps test-case" src="media/screenshots/allure_testops_test_case.png">
-</p>
-
 
 ## <img src="media/logos/Jira.svg" title="Jira" width="4%"/> Интеграция с Jira
 
