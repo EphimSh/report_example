@@ -46,7 +46,6 @@ gradle clean search_test
 gradle clean shopCart_test
 gradle clean catalog_test
 gradle clean smoke_test
-
 ```
 При выполнении команды, данные тесты запустятся удаленно в <code>Selenoid</code>.
 
