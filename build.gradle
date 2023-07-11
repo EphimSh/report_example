@@ -79,10 +79,15 @@ task shopCart_test(type: Test){
         includeTags 'shop-cart'
     }
 }
-
+task catalog_test(type: Test){
+    useJUnitPlatform{
+        includeTags 'catalog'
+    }
+}
 task smoke_test(type: Test){
     useJUnitPlatform{
         includeTags 'smoke'
     }
 }
+
 
