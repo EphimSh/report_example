@@ -46,7 +46,6 @@ gradle clean search_test
 gradle clean shopCart_test
 gradle clean catalog_test
 gradle clean smoke_test
-
 ```
 При выполнении команды, данные тесты запустятся удаленно в <code>Selenoid</code>.
 
@@ -73,12 +72,12 @@ main -DremoteUrl=${SELENOID_URL}
 * <code>BASE_URL</code> – Url, по которому будет открываться тестируемое приложение. По-умолчанию - <code>1920x1080</code>.
 * <code>REMOTE_BROWSER_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
 
-## <img src="media/logo/Jenkins.svg" title="Jenkins" width="4%"/> Сборка в Jenkins
+## <img src="media/logos/Jenkins.svg" title="Jenkins" width="4%"/> Сборка в Jenkins
 <p align="center">
 <img title="Jenkins Build" src="media/screens/JenkinsBuild.png">
 </p>
 
-## <img src="media/logo/Allure_Report.svg" title="Allure Report" width="4%"/> Пример Allure-отчета
+## <img src="media/logos/Allure_Report.svg" title="Allure Report" width="4%"/> Пример Allure-отчета
 ### Overview
 
 <p align="center">
@@ -91,7 +90,7 @@ main -DremoteUrl=${SELENOID_URL}
 <img title="Test Results in Alure" src="media/screens/ResultTest.png">
 </p>
 
-## <img src="media/logo/AllureTestOps.svg" title="Allure TestOps" width="4%"/> Интеграция с Allure TestOps
+## <img src="media/logos/AllureTestOps.svg" title="Allure TestOps" width="4%"/> Интеграция с Allure TestOps
 
 Выполнена интеграция сборки <code>Jenkins</code> с <code>Allure TestOps</code>.
 Результат выполнения автотестов отображается в <code>Allure TestOps</code>
@@ -101,7 +100,7 @@ main -DremoteUrl=${SELENOID_URL}
 <img title="Allure TestOps DashBoard" src="media/screens/allureAutotestCloud.png">
 </p>
 
-## <img src="media/logo/Jira.svg" title="Jira" width="4%"/> Интеграция с Jira
+## <img src="media/logos/Jira.svg" title="Jira" width="4%"/> Интеграция с Jira
 
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в тикете отображается информация, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
 
@@ -109,7 +108,7 @@ main -DremoteUrl=${SELENOID_URL}
 <img title="Jira Task" src="media/screens/jiraTask.png">
 </p>
 
-## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
+## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/logos/Telegram.svg"> Уведомления в Telegram с использованием бота
 
 После завершения сборки, бот созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с результатом.
 
