@@ -103,7 +103,7 @@ ${TASK}
 
 ## <img src="media/logos/AllureTestOps.svg" title="Allure TestOps" width="4%"/> Интеграция с Allure TestOps
 
-Выполнена интеграция сборки <code>Jenkins</code> с <code>Allure TestOps</code>.
+Выполнена интеграция сборки <code>Jenkins</code> с <code>Allure TestOps</code>.\n
 Результат выполнения автотестов отображается в <code>Allure TestOps</code>
 На Dashboard в <code>Allure TestOps</code> отображена статистика пройденных тестов.
 
