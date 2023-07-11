@@ -142,5 +142,5 @@ ${TASK}
 
 К каждому тесту в отчете прилагается видео прогона.
 <p align="center">
-  <img title="Selenoid Video" src="media/screens/ezgif.gif">
+  <img title="Selenoid Video" src="media/screenshots/selenoid_vid.gif">
 </p>
