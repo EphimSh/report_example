@@ -1,6 +1,7 @@
 package guru.qa.tests;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import guru.qa.tests.config.CredentialsConfig;
 import guru.qa.tests.helper.Attach;
@@ -44,5 +45,6 @@ public class TestBase {
         Attach.pageSource();
         Attach.browserConsoleLog();
         Attach.addVideo();
+        WebDriverRunner.driver().close();
     }
 }
