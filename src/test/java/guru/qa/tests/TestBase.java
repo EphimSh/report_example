@@ -23,7 +23,7 @@ public class TestBase {
         Configuration.browserVersion = System.getProperty("browserVersion", "99.0");
         Configuration.browserSize = System.getProperty("browserSize", "1980x1080");
         Configuration.baseUrl = System.getProperty("baseUrl", "https://primekraft.ru/");
-//        Configuration.remote = System.getProperty("remoteDriverUrl", "https://"+ config.login() +":"+config.password()+"@selenoid.autotests.cloud/wd/hub");
+        Configuration.remote = System.getProperty("remoteDriverUrl", "https://"+ config.login() +":"+config.password()+"@selenoid.autotests.cloud/wd/hub");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.of(
