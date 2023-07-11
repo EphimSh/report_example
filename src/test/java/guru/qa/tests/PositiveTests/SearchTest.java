@@ -8,7 +8,7 @@ import org.junit.jupiter.api.*;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
-public class SuccessfulSearchTest extends TestBase {
+public class SearchTest extends TestBase {
 
 
 
@@ -24,6 +24,9 @@ public class SuccessfulSearchTest extends TestBase {
     @Link(value = "primekraft", url = "https://primekraft.ru")
     @DisplayName("Поиск товара 'BCAA'")
     void searchTest() {
+        step("Перейти на главную страницу", () ->{
+            open("https://primekraft.ru");
+        });
         step("Нажать на кнопку поиска", () ->{
             $(".menu-search-button").click();
         });
