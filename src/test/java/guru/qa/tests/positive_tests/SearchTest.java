@@ -1,4 +1,4 @@
-package guru.qa.tests.PositiveTests;
+package guru.qa.tests.positive_tests;
 
 import com.codeborne.selenide.Condition;
 import guru.qa.tests.TestBase;

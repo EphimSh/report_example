@@ -1,4 +1,4 @@
-package guru.qa.tests.NegativeTests;
+package guru.qa.tests.negative_tests;
 
 import guru.qa.tests.TestBase;
 import io.qameta.allure.*;

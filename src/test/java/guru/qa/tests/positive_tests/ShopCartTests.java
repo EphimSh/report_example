@@ -1,7 +1,5 @@
-package guru.qa.tests.PositiveTests;
+package guru.qa.tests.positive_tests;
 
-import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.WebDriverRunner;
 import guru.qa.tests.TestBase;
 import guru.qa.tests.helper.Attach;
 import io.qameta.allure.*;
@@ -11,7 +9,6 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
-import static org.openqa.selenium.By.linkText;
 
 public class ShopCartTests extends TestBase {
     @BeforeEach

@@ -1,4 +1,4 @@
-package guru.qa.tests.PositiveTests;
+package guru.qa.tests.positive_tests;
 
 import guru.qa.tests.TestBase;
 import guru.qa.tests.helper.Attach;
