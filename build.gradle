@@ -16,7 +16,6 @@ ext {
     slf4jVersion = "2.0.7"
     selenideVersion = "6.14.1"
     allureVersion = "2.22.2"
-    javaFakerVersion = "1.0.2"
     ownerVersion = "1.0.12"
 }
 
@@ -44,7 +43,6 @@ dependencies {
             "org.slf4j:slf4j-simple:2.0.7",
             "io.qameta.allure:allure-selenide:${allureVersion}",
             "org.aeonbits.owner:owner:$ownerVersion",
-            "com.github.javafaker:javafaker:$javaFakerVersion"
     )
 
 }
