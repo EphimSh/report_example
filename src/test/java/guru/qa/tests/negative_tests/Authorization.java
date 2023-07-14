@@ -37,7 +37,7 @@ public class Authorization extends TestBase {
             $("[data-auth-title='Войти']").click();
         });
         step("В окошке авторизации есть сообщение об успешном входе", () ->{
-            $(".fancybox-content").shouldHave(text("Вы успешно авторизированы"));
+            $(".fancybox-content").shouldNotHave((text("Вы успешно авторизированы")));
         });
     }
 
