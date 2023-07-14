@@ -27,8 +27,8 @@ public class SpyOrder extends TestBase {
         step("Ввести 124 в поле для ввода id заказа", () ->{
             $("[name=order_id]").setValue("124").pressEnter();
         });
-        step("Отслеживать чужой заказ невозможно", () ->{
-            $("div.rsform").shouldNotHave(text("Заказ №124"));
+        step("Можно отследить статус чужого заказа", () ->{
+            $("div.rsform").shouldHave(text("Заказ №124"));
         });
 
     }
