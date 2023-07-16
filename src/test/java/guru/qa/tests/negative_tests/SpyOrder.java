@@ -10,15 +10,14 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
-
+@Owner("EphimSh")
+@Feature("Отслеживание заказа")
+@Link(value = "primekraft", url = "https://primekraft.ru")
+@Tag("smoke")
 public class SpyOrder extends TestBase {
     @Test
-    @Tag("smoke")
-    @Feature("Отслеживание заказа")
     @Story("Отслеживания статуса чужого заказа")
-    @Owner("EphimSh")
     @Severity(SeverityLevel.CRITICAL)
-    @Link(value = "primekraft", url = "https://primekraft.ru")
     @DisplayName("Ввод случайного числа в поле ввода order_id")
     void spyOnOtherCustomersOrderStatus(){
         step("Перейти на главную страницу", () ->{
