@@ -18,7 +18,7 @@ public interface WebConfig extends Config {
     @Key("baseUrl")
     @DefaultValue("https://primekraft.ru")
     String getBaseUrl();
-    @Key("remoteDriver")
+    @Key("remoteDriverUrl")
     String getRemoteUrl();
 
     @Key("pageLoadStrategy")

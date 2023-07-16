@@ -23,7 +23,7 @@ public class SearchTest extends TestBase {
     @DisplayName("Поиск товара 'BCAA'")
     void searchTest() {
         step("Перейти на главную страницу", () -> {
-            open("https://primekraft.ru");
+            open("/");
         });
         step("Нажать на кнопку поиска", () -> {
             $(".menu-search-button").click();
