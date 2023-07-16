@@ -12,17 +12,15 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
-
-
+@Owner("EphimSh")
+@Feature("Авторизация")
+@Link(value = "primekraft", url = "https://primekraft.ru")
+@Tag("smoke")
 public class Authorization extends TestBase {
 
     @Test
-    @Tag("smoke")
-    @Feature("Авторизация")
     @Story("Попытка авторизации с неправильными данными")
-    @Owner("EphimSh")
     @Severity(SeverityLevel.CRITICAL)
-    @Link(value = "primekraft", url = "https://primekraft.ru")
     @DisplayName("Авторизация с неправильными данными")
     void wrongCredAuthorization(){
         step("Перейти на главную страницу", () ->{
