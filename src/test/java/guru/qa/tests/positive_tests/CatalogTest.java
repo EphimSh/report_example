@@ -13,21 +13,22 @@ import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
+@Owner("EphimSh")
+@Feature("Страница каталога товаров")
+@Tag("catalog")
+@Link(value = "primekraft", url = "https://primekraft.ru")
 public class CatalogTest extends TestBase {
 
     @BeforeEach
     void goToCatalogPage() {
         step("Перейти на страницу каталога товаров", () -> {
-            open("catalog/");
+            open("/catalog/");
         });
     }
 
     @Test
-    @Feature("Страница каталога товаров")
     @Story("Видимость flash-sale товара")
-    @Owner("EphimSh")
     @Severity(SeverityLevel.MINOR)
-    @Link(value = "primekraft", url = "https://primekraft.ru")
     @DisplayName("Flash-sale товар присутствует на странице каталога")
     @Tags({
             @Tag("catalog"),
@@ -39,11 +40,8 @@ public class CatalogTest extends TestBase {
         });
     }
 
-    @Feature("Страница каталога товаров")
     @Story("Кнопки бокового меню каталога товаров")
-    @Owner("EphimSh")
     @Severity(SeverityLevel.CRITICAL)
-    @Link(value = "primekraft", url = "https://primekraft.ru")
     @DisplayName("Кнопки бокового меню каталога видны и функционируют")
     @Tags({
             @Tag("catalog")
@@ -61,11 +59,8 @@ public class CatalogTest extends TestBase {
         });
     }
 
-    @Feature("Страница каталога товаров")
     @Story("Фильтр товаров по бренду")
-    @Owner("EphimSh")
     @Severity(SeverityLevel.CRITICAL)
-    @Link(value = "primekraft", url = "https://primekraft.ru")
     @DisplayName("Filter-box виден и функционирует")
     @Tags({
             @Tag("catalog"),
@@ -88,15 +83,10 @@ public class CatalogTest extends TestBase {
         });
     }
 
-
     @Test
-    @Feature("Страница каталога товаров")
     @Story("Фильтр товаров по вкусу")
-    @Owner("EphimSh")
     @Severity(SeverityLevel.CRITICAL)
-    @Link(value = "primekraft", url = "https://primekraft.ru")
     @DisplayName("Filter-box виден и функционирует")
-    @Tag("catalog")
     void itemAmountPopUpWindowCheck() {
         step("Нажать на чекбокс фильтра по вкусу: Апельсин", () -> {
             $$(".bx-filter-block").find(text("Вкус")).find(withText("Апельсин")).click();
