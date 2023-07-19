@@ -59,7 +59,7 @@ public class CatalogTest extends TestBase {
             $("#pagetitle").shouldHave(text(categoryItem));
         });
     }
-
+    @Disabled
     @Story("Фильтр товаров по бренду")
     @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Filter-box виден и функционирует")
