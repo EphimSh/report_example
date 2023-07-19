@@ -2,8 +2,7 @@
 
 > primekraft.ru — онлайн магазин спортивных товаров основанный в г.Санкт-Петербург,<br>преимущество primekraft - собственное производство, которое ничем не хуже западных аналогов, а возможно даже и лучше.
 
-
-> ## Использованный стек технологий
+## Использованный стек технологий
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="media/logos/Intelij_IDEA.svg">
 <img width="6%" title="Java" src="media/logos/Java.svg">
