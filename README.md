@@ -1,9 +1,9 @@
 # Проект представляет собой автоматизацию тестовых сценариев на примере онлайн магазина спортивных товаров primekraft.ru<br>
 
 > primekraft.ru — онлайн магазин спортивных товаров основанный в г.Санкт-Петербург,<br>преимущество primekraft - собственное производство, которое ничем не хуже западных аналогов, а возможно даже и лучше.
->
-> ## Использованный стек технологий
 
+
+> ## Использованный стек технологий
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="media/logos/Intelij_IDEA.svg">
 <img width="6%" title="Java" src="media/logos/Java.svg">
@@ -18,7 +18,7 @@
 <img width="6%" title="Telegram" src="media/logos/Telegram.svg">
 <img width="5%" title="Jira" src="media/logos/Jira.svg">
 </p>
-
+>
 ## Содержание:
 - [Запуск автотестов](#arrow_forward-Запуск-автотестов)
 - [Сборка в Jenkins](#-Сборка-в-Jenkins)
