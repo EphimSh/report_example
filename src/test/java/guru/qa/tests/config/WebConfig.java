@@ -2,14 +2,14 @@ package guru.qa.tests.config;
 
 
 import org.aeonbits.owner.Config;
-@Config.Sources("classpath:config/my.properties")
+@Config.Sources("classpath:config/${env}.properties")
 public interface WebConfig extends Config {
     @Key("browser")
     @DefaultValue("chrome")
     String getBrowser();
 
     @Key("browserVersion")
-    @DefaultValue("100.0")
+    @DefaultValue("114.0")
     String getBrowserVersion();
 
     @Key("browserSize")

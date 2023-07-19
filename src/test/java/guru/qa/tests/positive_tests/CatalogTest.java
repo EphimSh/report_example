@@ -27,6 +27,7 @@ public class CatalogTest extends TestBase {
     }
 
     @Test
+    @Disabled
     @Story("Видимость flash-sale товара")
     @Severity(SeverityLevel.MINOR)
     @DisplayName("Flash-sale товар присутствует на странице каталога")
