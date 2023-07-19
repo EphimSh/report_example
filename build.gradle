@@ -65,6 +65,7 @@ tasks.withType(Test).configureEach {
 
 test {
     useJUnitPlatform()
+    systemProperties(System.getProperties())
 }
 task search_test(type: Test) {
     useJUnitPlatform{
