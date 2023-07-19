@@ -18,7 +18,7 @@
 <img width="6%" title="Telegram" src="media/logos/Telegram.svg">
 <img width="5%" title="Jira" src="media/logos/Jira.svg">
 </p>
->
+
 ## Содержание:
 - [Запуск автотестов](#arrow_forward-Запуск-автотестов)
 - [Сборка в Jenkins](#-Сборка-в-Jenkins)
