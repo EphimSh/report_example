@@ -12,7 +12,7 @@ jobs:
           java-version: '17'
       - run: chmod +x ./gradlew
       - uses: Xotabu4/selenoid-github-action@v2
-      - run: ./gradlew clean smoke_test -Dselenide.remote=http://localhost:4444/wd/hub
+      - run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub -Dbrowser=chrome -DbrowserVesrion=114.0
 
       - uses: actions/checkout@v2
         if: always()
