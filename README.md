@@ -75,7 +75,7 @@ ${TASK}
 * <code>BASE_URL</code> – Url, по которому будет открываться тестируемое приложение. По-умолчанию - <code>1920x1080</code>.
 * <code>REMOTE_BROWSER_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
   
-## Попробовать можно здесь 👉🏻 <a target='_blank' rel='noopener' href='https://jenkins.autotests.cloud/job/primekraft_tests/build'>собрать<a>
+## Попробовать можно здесь 👉🏻 <a href='https://jenkins.autotests.cloud/job/primekraft_tests/build'>собрать<a>
 
 ## <img src="media/logos/Jenkins.svg" title="Jenkins" width="4%"/> Сборка в Jenkins 
 <p align="center">
