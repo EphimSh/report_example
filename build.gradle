@@ -87,7 +87,7 @@ task smoke_test(type: Test){
     useJUnitPlatform{
         includeTags 'smoke', 'search', 'shop-cart', 'catalog'
     }
-    systemProperties(System.getProperties())
+
 }
 
 
