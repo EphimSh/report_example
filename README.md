@@ -85,17 +85,17 @@ ${TASK}
 ### Overview
 
 <p align="center">
-<img title="Allure Overview" src="media/screenshots/allure_overview.png">
+<img title="Allure Overview" src="media/screenshots/allure_dashboard.png">
 </p>
 
 ### Тест-кейсы
 
 <p align="center">
-<img title="Test Results in Alure" src="media/screenshots/allure_test_suite.png">
+<img title="Test Results in Alure" src="media/screenshots/allure_testcase1.png">
 </p>
 
 <p align="center">
-<img title="Test Results in Alure" src="media/screenshots/allure_behavior.png">
+<img title="Test Results in Alure" src="media/screenshots/alllure_testcase2.png">
 </p>
 
 ### Графики
@@ -117,10 +117,10 @@ ${TASK}
 
 ### Тест-кейсы
 <p align="center">
-<img title="Allure TestOps test-case" src="media/screenshots/allure_testops_test_case.png">
+<img title="Allure TestOps test-case" src="media/screenshots/allure_testops_testcase.png">
 </p>
 <p align="center">
-<img title="Allure TestOps test-case" src="media/screenshots/allure_testops_testcase.png">
+<img title="Allure TestOps test-case" src="media/screenshots/allure_testopst_testcase1.png">
 </p>
 
 
@@ -138,7 +138,7 @@ ${TASK}
 После завершения сборки, бот созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с результатом.
 
 <p align="center">
-<img width="70%" title="Telegram Notifications" src="media/screenshots/Telegram_dOO4Xyu1au.png">
+<img width="70%" title="Telegram Notifications" src="media/screenshots/telegram_report.png">
 </p>
 
 ## Видео примера запуска тестов в Selenoid
