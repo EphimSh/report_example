@@ -49,7 +49,8 @@ public class CatalogTest extends TestBase {
     @ValueSource(strings = {
             "НОВИНКИ", "РАСПРОДАЖА", "Протеин", "Креатин", "Аминокислоты"
     })
-    @ParameterizedTest(name = "Меню каталога содержит кнопку {0}")
+    @DisplayName("Меню каталога:")
+    @ParameterizedTest(name = "кнопка {0} работает")
     void catalogMenuItemCheck(String categoryItem) {
         step("Нажать на кнопку категории: " + categoryItem, () -> {
             $$(".b-sidebar-nav li").find(text(categoryItem)).click();
@@ -71,7 +72,8 @@ public class CatalogTest extends TestBase {
             "PLANTAGO | Plantago",
             "WOWBAR | WOWBAR"
     }, delimiter = '|')
-    @ParameterizedTest(name = "Фильтр по кнопке {0} показывает товар {1}")
+    @DisplayName("Фильтр по кнопке: ")
+    @ParameterizedTest(name = "{0} показывает товар {1}")
     void filterCheckBoxButtonTest(String checkbox, String item) {
         step("Нажать на чекбокс: " + checkbox, () -> {
             $$(".bx-filter-block .checkbox").find(text(checkbox)).click();
