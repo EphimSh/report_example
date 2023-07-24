@@ -43,7 +43,6 @@ public class CatalogTest extends TestBase {
 
     @Story("Кнопки бокового меню каталога товаров")
     @Severity(SeverityLevel.CRITICAL)
-    @DisplayName("Кнопки бокового меню каталога видны и функционируют")
     @Tags({
             @Tag("catalog")
     })
