@@ -61,7 +61,6 @@ public class CatalogTest extends TestBase {
     @Disabled
     @Story("Фильтр товаров по бренду")
     @Severity(SeverityLevel.CRITICAL)
-    @DisplayName("Filter-box виден и функционирует")
     @Tags({
             @Tag("catalog"),
             @Tag("smoke")
@@ -86,7 +85,7 @@ public class CatalogTest extends TestBase {
     @Test
     @Story("Фильтр товаров по вкусу")
     @Severity(SeverityLevel.CRITICAL)
-    @DisplayName("Filter-box виден и функционирует")
+    @DisplayName("Filter-box: Апельсин работает")
     void itemAmountPopUpWindowCheck() {
         step("Нажать на чекбокс фильтра по вкусу: Апельсин", () -> {
             $$(".bx-filter-block").find(text("Вкус")).find(withText("Апельсин")).click();
