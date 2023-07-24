@@ -8,8 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 @Owner("EphimSh")
@@ -34,8 +33,9 @@ public class Authorization extends TestBase {
             $("[name=password]").setValue("fakepassword");
             $("[data-auth-title='Войти']").click();
         });
-        step("В окошке авторизации есть сообщение об успешном входе", () ->{
-            $(".fancybox-content").shouldNotHave((text("Вы успешно авторизированы")));
+        sleep(2000);
+        step("В окошке авторизации есть сообщение об ошибке", () ->{
+            $(".fancybox-content").shouldHave((text("Неверный логин или пароль")));
         });
     }
 
